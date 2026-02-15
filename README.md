@@ -3,22 +3,6 @@
 Last Updated: January 2026  
 Status: Mandatory for All Contributors
 
-## **Table of Contents**
-
-1. [Overview](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#overview)  
-2. [Branching Strategy](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#branching-strategy)  
-3. [Branch Naming Conventions](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#branch-naming-conventions)  
-4. [Identity & Authentication](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#identity-authentication)  
-5. [Commit Standards](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#commit-standards)  
-6. [Pull Request Guidelines](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#pull-request-guidelines)  
-7. [Merge Conflict Resolution](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#merge-conflict-resolution)  
-8. [Rebase & Force Push Policy](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#rebase-force-push-policy)  
-9. [Branch Sync & CI Requirements](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#branch-sync-ci-requirements)  
-10. [Release Management](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#release-management)  
-11. [Dependency Management](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#dependency-management)  
-12. [Prohibited Practices](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#prohibited-practices)  
-13. [Enforcement](https://docs.google.com/document/d/17KE9KSB7VgfJ9CBPwXa5YarqekPIqFvIiQKbGTm4Vso/edit?tab=t.0#enforcement)
-
 ## **Overview**
 
 This document establishes mandatory Git practices for all project contributors. These standards ensure clean history, safe releases, clear ownership, and predictable delivery. Following these practices helps maintain a consistent workflow across teams, reduces the risk of errors during integration, and improves collaboration between developers. It also ensures that code is traceable, auditable, and easier to maintain over time. Adhering to these standards supports faster code reviews, smoother deployments, and a more reliable production environment.
